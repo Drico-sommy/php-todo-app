@@ -1,0 +1,140 @@
+/* *{
+    box-sizing: border-box;
+}
+form{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+button{
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 4px;
+    background-color: rgb(98, 94, 51);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+ */
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-add {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.form-add > input {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    font-size: .9rem;
+}
+
+.form-add > [name='add'] {
+    border: none;
+    background-color: lightseagreen;
+    display: flex;
+    padding: 1rem 1.5rem;
+    font-size: .8rem;
+    font-weight: 500;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+h3 {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+}
+
+.todo-item {
+    display: flex;
+    padding: 1rem;
+    background-color: #eee;
+    margin-bottom: 1rem;
+}
+
+.task-inner {
+    display: flex;
+    width: 100%;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.link.red {
+    color: tomato;
+}
+
+.link.blue {
+    color: lightskyblue;
+}
+
+.form-save{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-save{
+    width: 100%;
+    flex: 1;
+    padding: .8rem .1rem;
+    margin: 1rem;
+}
+
+.form-save button{
+    background:transparent;
+    border: none;
+    color: green;
+    margin-right: .5rem;
+}
